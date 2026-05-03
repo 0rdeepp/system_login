@@ -59,27 +59,3 @@
     font-size: 15px;
 
 }
-
-.gif_cat {
-    padding: 10px;
-    border-radius: 20px;
-    width: 320px;
-   
-}
-
-.pass_eye {
-  width: 100%;
-  padding-right: 40px; /* espaço pro olho dentro do input */
-  box-sizing: border-box;
-  position: relative;
-}
-
-.eye_icon {
-  position: relative;
-  left: -35px;  /* joga o olho pra dentro do input */
-  top: 0;
-  transform: translateY(-50%);
-  cursor: pointer;
-  background: none;
-  border: none;
-}
