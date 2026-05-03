@@ -60,11 +60,11 @@ class Cadastro extends Component{
                 <br/>
                 <input type="text" placeholder='Sobrenome' onChange={(e) => this.setState({sobrenome: e.target.value})} />
                 <br/>
-                <input type="text" placeholder='Data de Nascimento' onChange={(e) => this.setState({date_of_birth: e.target.value})} />
+                <input type="date" placeholder='Data de Nascimento' onChange={(e) => this.setState({date_of_birth: e.target.value})} />
                 <br/>
                 <input type="text" placeholder='E-mail' onChange={(e) => this.setState({email: e.target.value})} />
                 <br/>
-                <input type="password" placeholder='Senha' onChange={(e) => this.setState({password: e.target.value})} />
+                <input type="password" placeholder='Digite uma senha com pelo menos 6 caracteres' onChange={(e) => this.setState({password: e.target.value})} />
                 <br/>
                 <p>{this.state.mensagem}</p>
                 <button onClick={this.cadastrar}>Cadastrar</button>

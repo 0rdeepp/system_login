@@ -2,6 +2,7 @@ import firebase from "../../components/Firebase";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../assets/Cadastro.css";
+import gif_cat from "../../assets/images/gatinho_happy.gif";
 
 function Home() {
     const navigate = useNavigate();
@@ -59,7 +60,9 @@ function Home() {
             >
                 Sair
                 </button>
+            <img src={gif_cat} alt="teste" className="gif_cat" />
         </div>
+
     );    
 }
 export default Home;
